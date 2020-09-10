@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -58,12 +59,13 @@ nav a:hover{
 	color:#b3b300;
 }
 
+a:visited { color: purple; }
+
 .banner-area{
 	width: 100%;
 	height: 300px;
-	position: fixed;
 	top: 100px;
-	background-image: url(images/safari.jpg);
+	background-image: url(images/7.jpg);
 	background-size: cover;
 	background-position: center center;
 }
@@ -74,4 +76,84 @@ nav a:hover{
 	font-family: sans-serif;
 	letter-spacing: 2px;
 	color: white;
+}
+
+.gallery{
+	background-color: #ffeb99;
+}
+
+
+.text{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-left: 50px;
+	padding-right: 30px;
+	font-size: 50px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #4d4d4d;
+	text-align: left;
+}
+
+.links a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+	background: #6699ff;
+	color: white;
+}
+
+.links a:hover{
+	background: #ffa31a;
+	color: white;
+}
+
+.images img{
+	padding: 8px;
+	width: 300px;
+	height: 200px;
+	position: relative;
+}
+
+footer{
+	padding: 50px;
+	background-color: #000033;
+	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.tropical{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+}
+
+.safari{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+}
+
+.mountain{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+}
+
+.city{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
+}
+
+.cultural{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: white;
 }

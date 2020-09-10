@@ -58,20 +58,80 @@ nav a:hover{
 	color:#b3b300;
 }
 
+a:visited { color: purple; }
+
 .banner-area{
 	width: 100%;
 	height: 300px;
-	position: fixed;
 	top: 100px;
-	background-image: url(images/cultural.jpg);
+	background-image: url(images/6.jpg);
 	background-size: cover;
 	background-position: center center;
 }
 
-.banner-area h1{
-	padding-top: 40%;
-	font-size: 80px;
-	font-family: sans-serif;
-	letter-spacing: 2px;
+
+footer{
+	padding: 50px;
+	background-color: #000033;
 	color: white;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+.find-us{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 70px;
+	padding-right: 30px;
+	font-size: 50px;
+	font-family: 'Barlow Condensed', sans-serif;
+	color: #4d4d4d;
+	text-align: left;
+}
+
+.links {
+	height: 100px;
+	width: 100px;
+	padding: 50px;
+	position: relative;
+}
+
+.number{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 70px;
+	padding-right: 30px;
+	color: #4d4d4d;
+	text-align: center;
+}
+
+.big{
+	padding-right: 30px;
+	font-size: 30px;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-align: left;
+}
+
+.small{
+	padding-right: 30px;
+	font-size: 20px;
+	font-family: 'Barlow Condensed', sans-serif;
+	text-align: left;
+}
+
+.box{
+background-color: #ffeb99;
+padding: 20px;
+}
+
+.container{
+padding: 50px;
+margin: 15px;
+position: relative;
+font-family: Arial, sansserif;
+column-count: 3;
+}
+
+.container p{
+line-height: 50px;
 }
