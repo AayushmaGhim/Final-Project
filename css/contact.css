@@ -14,7 +14,7 @@ body{
 
 header{
 	height: 100px;
-	background: #f2f2f2;
+	background: #ffffcc;
 	width: 100%;
 	z-index: 12;
 	position: fixed;
@@ -45,7 +45,7 @@ nav a{
 	font-family: Courier-New;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	font-size: 15px;
+	font-size: 18px;
 	margin: 0 10px;
 	color: black;
 }
@@ -53,12 +53,6 @@ nav a{
 #contact{
 	color:#b3b300;
 }
-
-nav a:hover{
-	color:#b3b300;
-}
-
-a:visited { color: purple; }
 
 .banner-area{
 	width: 100%;
@@ -71,11 +65,83 @@ a:visited { color: purple; }
 
 
 footer{
-	padding: 50px;
-	background-color: #000033;
+	bottom: 0;
+	padding-top: 10px;
+	background-color: #4d4d4d;
 	color: white;
-	font-size: 20px;
-	font-family: sans-serif;
+	font-family: 'Barlow Condensed', sans-serif;
+}
+
+h3{
+	color: #3696dc;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.para{
+	font-size: 16px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+.cont{
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+}
+
+.last{
+	margin: 0 15px 25px;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12),
+	0 1px 2px rgba(0,0,0,0.24);
+	border-radius: 1px;
+	width: 35%;
+	position: relative;
+	flex-basis: 33%;
+}
+
+.about{
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.button2{
+
+	margin: 20px;
+	padding: 8px 15px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+	transition: all .5s ease;
+	background: #ffa31a;
+	color: white;
+}
+
+.button2:hover{
+	background: #00ace6;
+}
+
+quick a{
+	text-decoration: none;
+	font-family: Courier-New;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+	margin: 0 10px;
+	color: black;
+}
+
+.copyright{
+	background: #000033;
+	padding: 30px;
 }
 
 .find-us{
@@ -128,7 +194,7 @@ padding: 20px;
 padding: 50px;
 margin: 15px;
 position: relative;
-font-family: Arial, sansserif;
+font-family: 'Barlow Condensed', sans-serif;
 column-count: 3;
 }
 
